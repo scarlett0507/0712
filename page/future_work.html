@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text-html; charset=utf-8" />
+    <title>future work</title>
+    <meta name="renderer" content="webkit" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="../layui/css/layui.css" media="all" />
+    <link rel="stylesheet" href="../layui/css/mind.css">
+    <link rel="stylesheet" href="../layui/css/disaster_font.css" />
+    <style>
+
+    </style>
+</head>
+<body  class="childrenBody">
+            <div id="title">
+                <fieldset class="layui-elem-field layui-field-title">
+                    <legend><h3>３D地図</h3></legend>
+                </fieldset>
+            </div>
+
+            <div class="demo">
+                <iframe src="https://ics-creative.github.io/160106_threejs_trigonometric/demo/build/" frameborder="0" style="width:100%; height:300px;"></iframe>
+            </div>
+
+            <div id="title">
+                <fieldset class="layui-elem-field layui-field-title">
+                    <legend><h3>地すべり後の地形変化</h3></legend>
+                </fieldset>
+            </div>
+
+            <div class="demo">
+                <iframe src="elevationlayer.html" frameborder="0" style="width:100%; height:300px;"></iframe>
+            </div>
+
+
+            <div id="title">
+                <fieldset class="layui-elem-field layui-field-title">
+                    <legend><h3>画像の例</h3></legend>
+                </fieldset>
+            </div>
+
+            <div class="imgstar">
+                <img id="myImg" src="../images/wildfire.jpg" alt="Northern Lights, Norway" style="width:50%; height:50%;">
+             </div> 
+
+    <div style="width:400px;">
+        <div style="float:none; clear:both;" align="center">
+            <img src="../images/wildfire.jpg" width="120" alt="" hspace="8" /><br /> wildfire
+        </div>
+        ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+    </div>
+
+
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+                <span class="close">×</span>
+                <img class="modal-content" id="img01">
+                <div id="caption"></div>
+            </div>
+    <script src="../layui/layui.js" charset="utf-8"></script>
+ 
+        <script>
+layui.use('element', function(){
+  var element = layui.element; //导航的hover效果、二级菜单等功能，需要依赖element模块
+
+  //监听导航点击
+  element.on('nav(demo)', function(elem){
+    //console.log(elem)
+    layer.msg(elem.text());
+  });
+});
+        </script>
+        <script type="text/javascript" src="../js/ModalImg.js"></script>
+</body>
+</html>

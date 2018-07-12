@@ -1,0 +1,155 @@
+{
+  "daylifeMap": [
+    {
+      "title": "地図とは",
+      "href": "",
+      "spread": false
+    },
+    {
+      "title": "地図の読み方",
+      "href": "",
+      "spread": false
+    },
+    {
+      "title": "地図のきまり",
+      "href": "",
+      "spread": false
+    },
+    {
+      "title": "さまざまな一般図",
+      "href": "",
+      "spread": false
+    },
+    {
+      "title": "さまざまな主題図",
+      "href": "",
+      "spread": false
+    },
+    {
+      "title": "電子地図",
+      "href": "",
+      "spread": false
+    }
+  ],
+  "geoinforSystem": [
+    {
+      "title": "GISとは（一）",
+      "href": "page/geoinforSystem/Map.html",
+      "spread": false
+    },
+    {
+      "title": "GISとは（二）",
+      "href": "page/geoinforSystem/Map2.html",
+      "spread": false
+    },
+    {
+      "title": "GISを支える技術",
+      "href": "",
+      "spread": false
+    },
+    {
+      "title": "GISの活用",
+      "href": "",
+      "spread": false
+    },
+    {
+      "title": "地図を描く",
+      "href": "",
+      "spread": false
+    }
+  ],
+  "naturalEnviro": [
+    {
+      "title": "地形",
+      "href": "",
+      "spread": false
+    },
+    {
+      "title": "気候",
+      "href": "",
+      "spread": false
+    },
+    {
+      "title": "河川",
+      "href": "",
+      "spread": false
+    },
+    {
+      "title": "土地利用",
+      "href": "",
+      "spread": false
+    },
+    {
+      "title": "自然災害",
+      "href": "",
+      "spread": false
+    }
+  ],
+  "disasterPreven": [
+    {
+      "title": "ハザートマップとは",
+      "href": "",
+      "spread": false
+    },
+    {
+      "title": "ハザートマップの見方",
+      "href": "",
+      "spread": false
+    },
+    {
+      "title": "気候災害",
+      "href": "",
+      "spread": false
+    },
+    {
+      "title": "地震・津波と防災",
+      "href": "",
+      "spread": false
+    },
+    {
+      "title": "土砂災害と防災",
+      "href": "page/disasterPreven/landslides.html",
+      "spread": false
+    },
+    {
+      "title": "火山災害と防災",
+      "href": "",
+      "spread": false
+    },
+    {
+      "title": "台風・雪害と防災",
+      "href": "",
+      "spread": false
+    },
+    {
+      "title": "洪水と治水",
+      "href": "page/disasterPreven/mainFlood.html",
+      "spread": false
+    },
+    {
+      "title": "大都市の災害",
+      "href": "",
+      "spread": false
+    }
+  ],
+  "settlement": [
+    {
+      "title": "スキンチェンジ",
+      "href": "",
+      "spread": false
+    },
+    {
+      "title": "語言変更",
+      "href": "",
+      "spread": false
+    },
+
+    {
+      "title": "全画面表示",
+      "href": "",
+      "spread": false
+    }
+  ]
+}
+
+
