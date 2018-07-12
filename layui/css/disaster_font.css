@@ -41,7 +41,7 @@ p {
 
 .demo {
     width: 90%;
-    height:300px;
+    height: 100px;
     margin: 0 auto; /*CSS才是水平居中全靠他了*/
 }
 
