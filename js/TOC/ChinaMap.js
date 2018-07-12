@@ -17,7 +17,7 @@ require([
         center: [126.50, 43.70]
     });
     JilinLayer = new MapImageLayer({
-        url: "http://csis.viphk1.ngrok.org/arcgis/rest/services/public/吉林市/MapServer",
+        url: "https://sampleserver6.arcgisonline.com/arcgis/rest/services/USA/MapServer",
         visible: true
     });
     JPLayer = new MapImageLayer({
