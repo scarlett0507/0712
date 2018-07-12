@@ -7,7 +7,7 @@ require([
     "agsjs/dijit/TOC","dojo/domReady!"
 ], function (Map, MapView, MapImageLayer) {
     map = new Map({
-       basemap:'gray',
+       basemap:'topo',
     });
 
     mapView = new MapView({
